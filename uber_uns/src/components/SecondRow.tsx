@@ -10,7 +10,6 @@ const SecondRow: React.FC = () => {
     <div style={{ padding: "60px ", backgroundColor: "#fff" }}>
       <Row gutter={32} align="middle">
 
-        {/* Sol teref*/}
         <Col xs={24} md={12} style={{ display: "flex", justifyContent: "center" }}>
           <div style={{ padding: "60px 60px" }}>
        <Title level={2} style={{ color: "#3b1fa0" , marginBottom:"0px"}}>
@@ -36,10 +35,16 @@ Zertifizierung der GBE gGmbH
     </div>
     </Col>
 
-{/* Sag teref -sekil*/ }
 
-    <Col>
+    <Col xs={24} md={12} style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ padding: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <img
+          src={encodeURI('/3b4fa6a88555ab2195b1a8d06f79b20b9b7e663e (1).jpg')}
+          alt="Illustration"
 
+          style={{ width: '615px', height: '615px', borderRadius: 40 , flex:"vertical"}}
+        />
+      </div>
     </Col>
 </Row>
     </div>

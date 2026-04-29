@@ -38,7 +38,6 @@ const Header: React.FC = () => {
         GBE gGmbH
       </div>
 
-      {/* Navigation Links */}
       <nav style={{ display: "flex", alignItems: "center", gap: "32px" }}>
         <Dropdown menu={{ items: uberUnsItems }} placement="bottomLeft">
           <a
@@ -70,7 +69,6 @@ const Header: React.FC = () => {
         ))}
       </nav>
 
-      {/* Right Side Actions */}
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <Button
           type="primary"

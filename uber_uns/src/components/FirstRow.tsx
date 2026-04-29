@@ -76,8 +76,12 @@ const FirstRow: React.FC = () => {
 
                 {/* Sag teref*/}
                 <Col xs={24} md={12} style={{ display: "flex", justifyContent: "center" }}>
-                    <div>
-
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <img
+                            src="/Group 590.png"
+                            alt="Group 590"
+                            style={{ width:"578px", height: '714px', borderRadius: 8 }}
+                        />
                     </div>
                 </Col>
 
